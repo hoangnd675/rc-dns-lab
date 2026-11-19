@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+html { min-height: 100%; background: #080d1b; }
+body { margin: 0; min-height: 100vh; background: radial-gradient(circle at 50% -15%, #1c2940 0, #080d1b 48rem); color: #f7f8fb; }
+button { cursor: pointer; }
+::selection { background: rgba(244,189,53,.3); color: white; }
